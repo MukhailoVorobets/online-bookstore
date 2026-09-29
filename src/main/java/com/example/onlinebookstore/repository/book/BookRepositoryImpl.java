@@ -1,4 +1,4 @@
-package com.example.onlinebookstore.repository;
+package com.example.onlinebookstore.repository.book;
 
 import com.example.onlinebookstore.entity.Book;
 import jakarta.persistence.EntityManager;

@@ -1,7 +1,7 @@
 package com.example.onlinebookstore.service;
 
 import com.example.onlinebookstore.entity.Book;
-import com.example.onlinebookstore.repository.BookRepository;
+import com.example.onlinebookstore.repository.book.BookRepository;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
