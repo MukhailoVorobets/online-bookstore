@@ -1,10 +1,12 @@
 package com.example.onlinebookstore.service;
 
-import com.example.onlinebookstore.entity.Book;
-import java.util.List;
+import com.example.onlinebookstore.dto.book.BookDto;
+import com.example.onlinebookstore.dto.book.CreateBookRequestDto;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 public interface BookService {
-    Book save(Book book);
+    BookDto save(CreateBookRequestDto createBookDto);
 
-    List<Book> findAll();
+    Page<BookDto> findAll(Pageable pageable);
 }
